@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 22%;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    background-color: rgb(65, 64, 64);
+    border: 1.5rem solid rgb(62, 62, 236);
+}
+
+.App {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%
+}
+
+.display {
+    display: flex;
+    height: 3.5rem;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: rgb(34, 41, 41);
+    color: white;
+    margin-top: 3rem;
+    padding: .5rem;
+    font-size: 2.5rem;
+}
+
+.logo-container {
+    display: block;
+    height: 3rem;
+    width: 40%;
+}
+
+.display-container {
+    display: block;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.numbers-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.5rem;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-size: 1.3rem;
+    justify-content: space-between;;
+    align-items: center;
+    padding: 1rem;
+    margin: .3rem;
+    
+}
+
+.special-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.5rem;
+    background-color: rgb(11, 65, 173);
+    color: white;
+    font-size: 1.3rem;
+    justify-content: space-between;;
+    align-items: center;
+    padding: 1rem;
+    margin: .3rem;
+}
+
+.operator-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.5rem;
+    background-color: rgb(136, 20, 20);
+    color: white;
+    font-size: 1.3rem;
+    justify-content: space-between;;
+    align-items: center;
+    padding: 1rem;
+    margin: .3rem;
+}
+
+.numbers-button:nth-child(10) {
+    width: 7.7rem;
+}
+
+.left-container {
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    padding-right: 0rem;
+    margin-right: 0rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-container {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
